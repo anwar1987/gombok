@@ -27,17 +27,24 @@ Released under the MIT license: http://jsbin.mit-license.org
     background: -moz-linear-gradient(white, #a7d7f9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(white, #e8f2f8); /* Standard syntax */
 }
-a{
-
-}
+.gomb2{
+   color:black;
+  border-width: 1px; border-style: solid; -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#a7d7f9)) 4 100%; -webkit-border-image: -webkit-linear-gradient(white, #a7d7f9) 4 100%; -moz-border-image: -moz-linear-gradient(white, #a7d7f9) 4 100%; -o-border-image: -o-linear-gradient(white, rgba(167, 215, 249, 1)) 4 100%; border-image: linear-gradient(to bottom, white, #a7d7f9) 4 100%;
+ padding: 5px 10px;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 0.85em;
+ background-color:white;
+  }
 .jobb{
   float:right;
 }
 </style>
 </head>
 <body>
-<a href="www.google.com"><button class="gomb" >teszt</button></a>
+<a href="http://www.google.com/"><button class="gomb" >teszt</button></a>
   <a href="http://haromhegyek.hu/e107_images/newspost_images/kertesz.jpg" class="gomb">kép</a>
   <a href="www.google.hu" class="gomb">oldal</a>
+  <a class="gomb2">masik fajta gomb</a>
 </body>
 </html>
